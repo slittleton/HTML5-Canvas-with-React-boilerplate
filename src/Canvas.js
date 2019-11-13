@@ -18,6 +18,8 @@ const Canvas = () => {
     init(context); // call draw/animate functions on resize
   };
 
+  
+ 
   // ============== useEffect holds all your activity ==============
   useEffect(() => {
     const canvas = canvasRef.current;
